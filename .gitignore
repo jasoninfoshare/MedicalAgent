@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment
+.env
+.venv/
+venv/
+
+# Milvus / local DBs
+*.db
+*.db.lock
+
+# Data files (large)
+data/*.jsonl
+
+# IDE
+.vscode/
+.idea/
